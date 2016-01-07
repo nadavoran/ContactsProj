@@ -1,0 +1,69 @@
+html, body{
+    height:99%;
+}
+body{
+    margin: 2pt 100pt 2pt 100pt;
+    background: lightgreen;
+}
+.mainContainer{
+    background: white;
+    border: solid gray;
+    height:100%;
+    min-width: 280pt;
+}
+.contactTitle{
+    text-align: center;
+    border-bottom: solid gray;
+    vertical-align: middle;
+    height: 7%;
+}
+h2 {
+    margin: 0;
+    transform: translate(0, 25%)
+}
+.secondRow{
+    display: flex;
+    height:100%;
+}
+.leftPannel{
+    /*float: left;*/
+    /*height:91%;*/
+}
+.borderSection{
+    margin-right: 0;
+    margin-left: 0;
+    border-right: solid gray;
+    height:93%;
+}
+.mainView{
+    text-align: center;
+    flex-grow:2;
+}
+.displayNameSelections{
+    padding: 0pt;
+    margin: 0pt;
+}
+.contactSelection{
+    list-style-type:none;
+    border-bottom: solid gray;
+    cursor: pointer;
+    padding: 5pt 5pt 5pt 7pt;
+}
+li.contactSelection:hover{
+    font-weight: bold;
+    padding-left: 5pt;
+}
+.active{
+    background: darkgray;
+    color: white;
+    font-weight: bold;
+    padding-left: 5pt;
+}
+.ticket{
+    border: solid darkgray 1pt;
+    margin: 5pt;
+    padding: 5pt;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
